@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["openssl"]
+nixPkgs = ["openssl", "openssl.dev"]
+
+[variables]
+NIXPACKS_NODE_VERSION = "20"
